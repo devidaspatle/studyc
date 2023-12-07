@@ -1,0 +1,212 @@
+### GET ALL PRODUCTS
+GET http://localhost:4000/api/products HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/products/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "shop_name": "shop_name",
+  "product_name": "product_name",
+  "category_name": "category_name",
+  "author_name": "author_name",
+  "price": "price",
+  "discount_price": "discount_price",
+  "ibsn_number": "ibsn_number",
+  "additional_year": "additional_year",
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/products/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/products/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated product title"
+}
+
+
+### GET ALL STUDENTS
+GET http://localhost:4000/api/students HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/students/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/students HTTP/1.1
+Content-Type: application/json
+
+{
+  "fullname": "Devidas patle",
+  "mobile": "987457896",
+  "emailid": "devidas.patle@gmail.com",
+  "state": "maharashtra",
+  "city": "Nagpur",
+  "address": "Nagpur",
+  "location_map": "Nagpur"
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/students/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/students/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated student title"
+}
+
+
+### GET ALL BOOK
+GET http://localhost:4000/api/books HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/books/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "book_name": "Devidas patle",
+  "category_name": "ggfd",
+  "author_name": "devidas",
+  "price": "1200",
+  "discount_price": "1000",
+  "ibsn_number": "23424fdgf",
+  "additional_year": "3000"
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/books/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/books/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated book title"
+}
+
+
+
+### GET ALL shops
+GET http://localhost:4000/api/shops HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/shops/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/shops HTTP/1.1
+Content-Type: application/json
+
+{
+  "author_name": "Devidas patle",
+  "mobile": "987457896",
+  "emailid": "devidas.patle@gmail.com",
+  "state": "maharashtra",
+  "city": "Nagpur",
+  "address": "Nagpur",
+  "location_map": "Nagpur"
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/shops/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/shops/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated shops title"
+}
+
+
+### GET ALL Author
+GET http://localhost:4000/api/authors HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/authors/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/authors HTTP/1.1
+Content-Type: application/json
+
+{
+  "author_name": "Devidas patle",
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/authors/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/authors/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated Author title"
+}
+
+
+
+### GET ALL category	
+GET http://localhost:4000/api/categories	 HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/categories/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/categories HTTP/1.1
+Content-Type: application/json
+
+{
+  "category_name": "Book",
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/categories/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/categories/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated categories title"
+}
+
+
+
+### GET ALL advertise
+GET http://localhost:4000/api/advertises HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:4000/api/advertises/60e0102521438724ac4638f4 HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:4000/api/advertises HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "School",
+  "scriptcode": "987fsfsfsf457896",
+  "startdate": "20-10-2023",
+  "enddate": "20-10-2024",
+  "image": "logo.png",
+}
+
+### DELETE ITEM
+DELETE http://localhost:4000/api/advertises/60e00f8e21438724ac4638ef HTTP/1.1
+
+### UPDATE ITEM
+PUT http://localhost:4000/api/advertises/60e00f8e21438724ac4638ef HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated advertises title"
+}

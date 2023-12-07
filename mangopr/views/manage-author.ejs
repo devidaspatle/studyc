@@ -1,0 +1,76 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+
+
+       <div class="side-bar content">
+              
+                    <div class="product-form--1 mt-12">
+                <div class="row cols-md-12 mt-8">
+                    <div class="col">
+                        <div class="form-group">
+                         <label>Author Name</label>
+                            <input type="text" name="author_name" id="author_name">
+                        </div>
+                    </div>
+                        
+                    <div class="col">
+                        <button href="javascript()" class="btn btn-dash--1 mt-4">Submit</button>
+                    </div>
+                </div>
+            </div>  
+             
+
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                    <h4>Manage Author </h4>
+                    <ul>
+                        <li class="list-inline-item"><a>Home </a></li>
+                        <li class="list-inline-item"><span>/</span> <a href="javascript:void(0);"
+                                class="breadcrum">Author</a></li>
+                    </ul>
+                </div>
+
+            </div>
+    <table id="example" class="table table-striped table-dash" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Author Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Book</td>
+                <td class="table-icon">
+                  
+                    <a href="javascript:void(0);" class="me-3">
+                       <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+
+          
+        </tbody>
+    </table>
+  </div>
+
+
+</div>
+    </div>
+</section>
+
+<%- include('footer'); -%>

@@ -1,0 +1,67 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+        <div class="side-bar content">
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                   <h4> Add advertise</h4>
+                    
+                </div>
+
+              
+            </div>
+  <div class="user-profile-dash">
+ <form action="/manage-advertise" method="post" name="frm">
+          
+            <div class="product-form--1 mt-4">
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-3 mt-8">
+                   
+                  
+                     <div class="col-12">
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input type="text" name="title" id="title">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Script Code</label>
+                            <textarea name="script_code"  id="script_code"></textarea>
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="form-group">
+                            <label>Start Date</label>
+                            <input type="date" name="start_date" id="start_date">
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="form-group">
+                            <label>End Date</label>
+                            <input type="date" name="end_date" id="end_date">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Upload Image</label>
+                            <input type="file" name="file" id="file">
+                        </div>
+                    </div> 
+                    
+                    <div class="col">
+                        <button name="Submit" class="btn btn-dash--1 mt-4">Submit</button>
+                    </div>
+                </div>
+            </div>  
+ </form>
+</div>
+    </div>
+</section>
+<%- include('footer'); -%>

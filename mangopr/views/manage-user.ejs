@@ -1,0 +1,107 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+
+
+    <div class="side-bar content">
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                    <h4>Manage User </h4>
+                    <ul>
+                        <li class="list-inline-item"><a>Home </a></li>
+                        <li class="list-inline-item"><span>/</span> <a href="javascript:void(0);"
+                                class="breadcrum">User</a></li>
+                    </ul>
+                </div>
+
+                <div class="button-table text-end ms-auto">
+                    <a href="export_registers_file" class="btn btn-dash--1">
+                        <i class="fa fa-download me-2"></i>Export</a>
+                    <a href="/add-user" class="btn btn-dash--1"><i class="fa fa-plus me-2"></i>Add
+                        User </a>
+
+                </div>
+            </div>
+  <div class="user-profile-dash">
+    <table id="example" class="table table-striped table-dash" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>User Type</th>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email Id</th>
+              
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gold</td>
+                <td>Devidas</td>
+                <td>9579010026</td>
+                <td>devidas.patle@gmail.com</td>
+               
+                <td class="table-icon">
+                   
+                    <a href="javascript:void(0);" class="me-3">
+                       <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+           <tr><td>2</td>
+          <td>Gold</td>
+                <td>Devidas</td>
+                <td>9579010026</td>
+                <td>devidas.patle@gmail.com</td>
+               
+                
+                <td class="table-icon">
+                  
+                    <a href="javascript:void(0);" class="me-3">
+                       <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+          <tr><td>3</td>
+          <td>Gold</td>
+                <td>Devidas</td>
+                <td>9579010026</td>
+                <td>devidas.patle@gmail.com</td>
+
+                <td class="table-icon">
+                   
+                    <a href="javascript:void(0);" class="me-3">
+                       <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+          
+          
+        </tbody>
+    </table>
+  </div>
+
+
+</div>
+  </div>
+</section>
+
+<%- include('footer'); -%>

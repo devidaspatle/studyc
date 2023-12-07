@@ -1,0 +1,44 @@
+<%- include('header'); -%>
+<section class="dashboard--1 ">
+  
+  <div class="dash-login-page">
+        <div class="dash-content-page">
+            <div class="container">
+                
+                <div class="row g-5 row-cols-1 row-cols-lg-2 row-cols-md-2 justify-content-center align-items-center">
+                    
+                    <div class="col">
+                        <div class="form">
+                            <div class="logo">
+                                <div class="logo-icon">
+                                    <img src="images/logo-indias.webp" alt="logo">
+                                </div>
+                            </div>
+                            <form id="step1" class="login-form" action="/dashboard" method="post">
+                                <div class="input-field">
+                                    <input type="text" placeholder="Username" required="">
+                                    <i class="fa fa-user-o field-icon"></i>
+                                </div>
+                                <div class="input-field">
+                                    <input type="password" id="password" placeholder="Password" required="">
+                                    <i class="fa fa-eye-slash field-icon" id="eye"></i>
+                                </div>
+                                <div class="bottom-dash-check d-flex justify-content-between flex-wrap">
+                                    <div class="rememberme">
+                                        <input type="checkbox">
+                                        <label>Remember Me</label>
+                                    </div>
+                                    <a href="#" class="forget-dash">Forget password</a>
+                                </div>
+                                <div class="login-btn">
+                                    <button type="submit" class="btn btn-dash--1 mt-4 w-100 dash-button">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+  </div>
+</section>
+<%- include('footer'); -%>

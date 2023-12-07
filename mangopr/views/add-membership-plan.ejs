@@ -1,0 +1,60 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+        <div class="side-bar content">
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                   <h4> Add Membership Plan</h4>
+                    
+                </div>
+
+              
+            </div>
+  <div class="user-profile-dash">
+ <form action="/manage-books" method="post" name="frm">
+          
+            <div class="product-form--1 mt-4">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-4 mt-8">
+                     <div class="col">
+                        <div class="form-group">
+                            <label>Student Name</label>
+                             <select name="plan_type" id="plan_type" class="form-control" required="required">
+                                 <option value="">Select Plan Type</option>
+                                <option value="Bronze">Bronze</option>
+                                 <option value="Silver">Silver</option>
+                                  <option value="Gold">Gold</option>
+                            </select>
+                        </div>
+                    </div>
+                   
+                     
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Price</label>
+                            <input type="text" name="price" id="price">
+                        </div>
+                    </div>
+                   <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea name="description" id="description"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <button name="Submit" class="btn btn-dash--1 mt-4">Submit</button>
+                    </div>
+                </div>
+            </div>  
+ </form>
+</div>
+    </div>
+</section>
+<%- include('footer'); -%>

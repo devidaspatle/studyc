@@ -1,0 +1,105 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+        <div class="side-bar content">
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                   <h4> Add Book</h4>
+                    
+                </div>
+
+              
+            </div>
+  <div class="user-profile-dash">
+ <form action="/manage-books" method="post" name="frm">
+          
+            <div class="product-form--1 mt-4">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-4 mt-8">
+                     <div class="col">
+                        <div class="form-group">
+                            <label>Student Name</label>
+                             <select name="student_name" id="student_name" class="form-control" required="required">
+                                 <option value="">Select Student Name</option>
+                                <option value="">Devidas Pate</option>
+                            </select>
+                        </div>
+                    </div>
+                   
+                     <div class="col">
+                        <div class="form-group">
+                            <label>Category Name</label>
+                            <select name="state" id="state" class="form-control" required="required">
+                                 <option value="">Select Category Name</option>
+                                <option value="">Book</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Author Name</label>
+                             <select name="state" id="state" class="form-control" required="required">
+                                 <option value="">Select Author Name</option>
+                                <option value="">Devidas</option>
+                            </select>
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="form-group">
+                            <label>Book Name</label>
+                            <input type="text" name="book_name" id="book_name">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>ISBN Number</label>
+                            <input type="text" name="ibsn_number" id="ibsn_number">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Price</label>
+                            <input type="text" name="price" id="price">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Discount Price</label>
+                            <input type="text" name="discount_price" id="discount_price">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Addition Year</label>
+                            <input type="text" name="additional_year" id="additional_year">
+                        </div>
+                    </div>
+                    <!-- <div class="col">
+                        <div class="form-group">
+                            <label>Pincode</label>
+                            <input type="text">
+                        </div>
+                    </div> -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Upload Image</label>
+                            <input type="file" name="file" id="file">
+                        </div>
+                    </div> 
+                    
+                    <div class="col">
+                        <button name="Submit" class="btn btn-dash--1 mt-4">Submit</button>
+                    </div>
+                </div>
+            </div>  
+ </form>
+</div>
+    </div>
+</section>
+<%- include('footer'); -%>

@@ -1,0 +1,69 @@
+<%- include('header'); -%>
+<%- include('header-top'); -%>
+<section class="dashboard--1 ">
+  <div class="d-flex">
+    
+<div class="sidebar">
+  <%- include('side-bar'); -%>
+ 
+</div>
+
+
+
+        <div class="side-bar content">
+   <div class="d-flex align-items-center">
+                <div class="title-dash">
+                    <h4>Manage Membeship Plan </h4>
+                    <ul>
+                        <li class="list-inline-item"><a>Home </a></li>
+                        <li class="list-inline-item"><span>/</span> <a href="javascript:void(0);"
+                                class="breadcrum">Manage Membership Plan</a></li>
+                    </ul>
+                </div>
+
+                <div class="button-table text-end ms-auto">
+                    <a href="export_registers_file" class="btn btn-dash--1">
+                        <i class="fa fa-download me-2"></i>Export</a>
+                    <a href="add-membership-plan" class="btn btn-dash--1"><i class="fa fa-plus me-2"></i>Add
+                        Member Ship </a>
+
+                </div>
+            </div>
+  <div class="user-profile-dash">
+    <table id="example" class="table table-striped table-dash" style="width:100%">
+        <thead>
+            <tr>
+                 <th>Sr. No.</th>
+                <th>Plan Type</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td>
+                <td>Gold</td>
+                <td>1000</td>
+                <td>TEEE</td>
+                
+                <td class="table-icon">
+                   
+                    <a href="javascript:void(0);" class="me-3">
+                       <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+  </div>
+
+
+</div>
+    </div>
+</section>
+
+<%- include('footer'); -%>

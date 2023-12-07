@@ -1,0 +1,49 @@
+ <%- include('header'); -%>
+ <body>
+    <div id="global-loader" class="admin-loader">
+        <div class="loader"> </div>
+    </div>
+    <header>
+       
+        <div class="sidebar">
+           <div class="topbar d-flex align-items-center">
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <a href="javascript:void(0);">
+                            <img src="images/logo.jpeg" width="90" class="logo-icon" alt="logo icon">
+                        </a>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand gap-3">
+                    <a href="#" class="sidebar-toggler flex-shrink-0">
+                        <i class="fa fa-bars"></i>
+                    </a>
+             
+                  
+                 
+                    <div class="user-box dropdown px-3 text-end ms-auto">
+                        <a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/blank-img.jpg" class="user-img" alt="user">
+                            <div class="user-info">
+                                <p class="user-name mb-0">Devidas Patle</p>
+                                <p class="designattion mb-0">Web Developer</p>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end w-100">
+                            <li><a class="dropdown-item d-flex align-items-center" href="student_profile"><i class="bx bx-user fs-5 me-2"></i><span>Profile</span></a>
+                            </li>
+                           
+                            <li><a class="dropdown-item d-flex align-items-center" href="dashboard"><i class="bx bx-home-circle fs-5 me-2"></i><span>Dashboard</span></a>
+                            </li>
+                         
+                            <li>
+                                <div class="dropdown-divider mb-0"></div>
+                            </li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="logout"><i class="bx bx-log-out-circle me-2"></i><span>Logout</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> 
+        </div>
+    </header>
